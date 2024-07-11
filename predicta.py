@@ -32,7 +32,7 @@ class PredictaApp:
 
     def show_hero_image(self):
         """Display the hero image."""
-        st.image("assets/Hero.png")
+        st.image("assets/logo_indonesia_power.png")
 
     def show_footer(self):
         """Display the footer."""
