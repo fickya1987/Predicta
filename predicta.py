@@ -37,14 +37,14 @@ class PredictaApp:
     def show_footer(self):
         """Display the footer."""
         st.markdown("---")
-        st.markdown("*copyright@ahammadnafiz*")
+        st.markdown("*Ficky_Alkarim*")
 
         footer_content = """
         <div class="footer">
             Follow me: &nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/ahammadnafiz" target="_blank">GitHub</a> 🚀 |
-            <a href="https://twitter.com/ahammadnafi_z" target="_blank">Twitter</a> 🐦 |
-            <a href="https://github.com/ahammadnafiz/Predicta/blob/main/LICENSE" target="_blank">License</a> 📜
+            <a href="https://github.com/" target="_blank">GitHub</a> 🚀 |
+            <a href="https://twitter.com/" target="_blank">Twitter</a> 🐦 |
+            <a href="https://github.com/" target="_blank">License</a> 📜
         </div>
         """
         st.markdown(footer_content, unsafe_allow_html=True)
@@ -76,7 +76,7 @@ class PredictaApp:
 
     def handle_sidebar(self):
         """Handle the sidebar options."""
-        st.sidebar.title("Predicta")
+        st.sidebar.title("Dispersion Emission")
         st.sidebar.markdown("---")
 
         self.file_upload()
@@ -100,7 +100,7 @@ class PredictaApp:
                 "Feature Importance Analyzer",
                 "Best Parameter Selector",
                 # "Chat With Predicta",
-                "PredictaCodeEditor",
+                "CodeEditor",
                 "Select ML Models",
                 "Clear Modified DataSet",
             ],
@@ -117,7 +117,7 @@ class PredictaApp:
             self.encode_data()
         # elif selected_option == "Chat With Predicta":
         #     self.handle_chat_with_predicta()
-        elif selected_option == "PredictaCodeEditor":
+        elif selected_option == "CodeEditor":
             self.code_editor()
         elif selected_option == "Select ML Models":
             self.handle_select_ml_models()
@@ -140,11 +140,11 @@ class PredictaApp:
 
     def contributor_info(self):
         nafiz_info = {
-            "name": "Ahammad Nafiz",
-            "role": "Curious Learner",
-            "image_url": "https://avatars.githubusercontent.com/u/86776685?s=400&u=82112040d4a196f3d796c1aa4e7112d403c19450&v=4",
-            "linkedin_url": "https://www.linkedin.com/in/ahammad-nafiz/",
-            "github_url": "https://github.com/ahammadnafiz",
+            "name": "Ficky_Alkarim",
+            "role": "Developer",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg2jVBcVEV-MsUYTOC4lUjWnlH3tzy5eQlVg&usqp=CAU",
+            "linkedin_url": "https://www.linkedin.com/",
+            "github_url": "https://github.com/",
         }
 
         st.sidebar.write("#### 👨‍💻 Developed by:")
@@ -290,7 +290,7 @@ class PredictaApp:
 
     def code_editor(self):
         """Launch the code editor."""
-        editor = PredictaCodeEditor()
+        editor = CodeEditor()
         editor.run_code_editor(self.df)
         self.save_modified_df()
         self.show_footer()
@@ -370,7 +370,7 @@ class PredictaApp:
 
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Predicta",
+        page_title="Emission Dispersion",
         page_icon="⚡",
         initial_sidebar_state="expanded"
     )
