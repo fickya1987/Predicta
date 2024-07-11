@@ -1,18 +1,18 @@
-anthropic==0.25.7
-matplotlib==3.8.4
+anthropic==0.31.0
+matplotlib==3.9.1
 matplotlib-inline==0.1.7
-numpy==1.26.4
+numpy==2.0.0
 pandas==2.2.2
 plotly==5.22.0
-pylint==3.1.0
-scikit-learn>=1.5.0
-scipy==1.13.0
+pylint==3.2.5
+scikit-learn==1.5.1
+scipy==1.14.0
 seaborn==0.13.2
-streamlit==1.35.0
-streamlit-code-editor==0.1.12
-xgboost==1.5.0
+streamlit==1.36.0
+streamlit-code-editor==0.1.21
+xgboost==2.1.0
 category_encoders==2.6.3
 imbalanced-learn==0.12.3
-langchain==0.2.1
-langchain-core==0.2.3
-langchain-groq ==0.1.4
+langchain==0.2.7
+langchain-core==0.2.13
+langchain-groq ==0.1.6
