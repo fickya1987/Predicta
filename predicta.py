@@ -32,7 +32,7 @@ class PredictaApp:
 
     def show_hero_image(self):
         """Display the hero image."""
-        st.image("assets/logo_indonesia_power.png")
+        st.image("pelindo.png")
 
     def show_footer(self):
         """Display the footer."""
@@ -161,7 +161,7 @@ class PredictaApp:
     def handle_help(self):
         """Display help information."""
         st.sidebar.markdown("#### Help")
-        st.sidebar.info("For any assistance or inquiries, please contact us at ahammadnafiz@outlook.com")
+        st.sidebar.info("For any assistance or inquiries, please contact us at fickyalkarim1987@gmail.com")
 
     def overview_methods(self):
         """Display DateSet information."""
