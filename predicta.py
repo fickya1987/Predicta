@@ -76,7 +76,7 @@ class PredictaApp:
 
     def handle_sidebar(self):
         """Handle the sidebar options."""
-        st.sidebar.title("Dispersion Emission")
+        st.sidebar.title("Data")
         st.sidebar.markdown("---")
 
         self.file_upload()
