@@ -32,7 +32,7 @@ class PredictaApp:
 
     def show_hero_image(self):
         """Display the hero image."""
-        st.image("logo_indonesia_power.png")
+        st.image("pelindo.png")
 
     def show_footer(self):
         """Display the footer."""
@@ -141,7 +141,7 @@ class PredictaApp:
     def contributor_info(self):
         nafiz_info = {
             "name": "Ficky_Alkarim",
-            "role": "Developer",
+            "role": "Data Scientist",
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg2jVBcVEV-MsUYTOC4lUjWnlH3tzy5eQlVg&usqp=CAU",
             "linkedin_url": "https://www.linkedin.com/",
             "github_url": "https://github.com/",
@@ -370,7 +370,7 @@ class PredictaApp:
 
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Emission Dispersion",
+        page_title="Data Science",
         page_icon="⚡",
         initial_sidebar_state="expanded"
     )
